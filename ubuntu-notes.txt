@@ -10,5 +10,3 @@ CREATE DATABASE <dbname> OWNER <username>;
 # Comando para correr Odoo localmente con una base de datos y usuario especificado.
 # La opcion -i indica que se debe inicializar la base de datos, esta opcion se debe quitar en las siguientes ejecuciones
 python odoo-bin --addons-path=addons -d <dbname> -r <username> -w '<password>' -i base
-
-changed to test configuration
